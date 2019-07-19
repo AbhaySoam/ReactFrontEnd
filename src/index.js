@@ -4,7 +4,6 @@ import './index.css';
 import App from './app';
 
 //=================================
-//new index
 ReactDOM.render(
     <App />
     ,

@@ -1,0 +1,248 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+	font-size: 0.8rem;
+}
+
+
+
+
+
+.card-body{padding: 0}
+
+
+
+
+
+.alert{margin-bottom:0px;padding:.85rem 0rem}
+
+.card-header {padding:.35rem 1.25rem;
+font-weight: 500}
+.navbar{padding:0.2rem 1rem}
+
+.table td, .table th{
+	padding: .45rem;
+}
+
+#tblAccountActivity td, #tblAccountActivity th, #tblApplicationAccess th, #tblApplicationAccess td, #tblRememberedDevice th, #tblRememberedDevice td, #tblSecurityActivity th, #tblSecurityActivity td{
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:15px;
+}
+
+/* .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+	padding-right:10px;
+	padding-left:10px;
+	
+} */
+
+.table {
+	margin-bottom: 0.4rem;
+}
+
+.moreLink{
+	float:right;
+	margin-bottom:7px;
+	    margin-right: 7px;
+}
+
+.bg-info{
+	    background-color: #e8e8e8!important;
+}
+
+.userName{
+	
+    padding: 4px;
+    background-color: white;
+    color: #258ffd !important;
+    font-weight: bold;
+	border: 1px solid #d4d4d4;
+}
+
+
+.alert, .card{
+	border-radius:0;
+	box-shadow: 2px 6px 12px #d8d8d8;}
+
+.card, .ReactModal__Content .ReactTable {border: 1px solid #3796ea;
+
+}
+
+.dailyCard .col{
+  padding-left: 5px;
+  padding-right: 5px
+}
+
+.dailyCard {
+  margin-bottom:15px;
+  min-height: 21vw;
+}
+
+.height21{
+  min-height: 21vw;
+}
+
+.height18{
+  min-height: 18vw;
+}
+.height19{
+  min-height: 19vw;
+}
+
+/* .failureTrendChart{
+  margin-top:10px
+} */
+
+.dailyCard .card-body{
+  padding:10px !important;
+  padding-top:0px   !important;
+}
+
+.card-header, .ReactModal__Content .-header {
+	background-color:#1374da;
+	color:white !important;
+}
+
+.alert-danger{
+	border-color: #b9535e;
+}
+
+.alert-warning{
+	border-color: #b38700;
+}
+
+.alert-success{border-color: #1db340;}
+.alert-primary{border-color: #4279b5;}
+
+.settingsDiv{
+	cursor:pointer !important;
+}
+
+#user-seal{
+  padding-top: 12px;
+  padding-left: 10px;
+  float: left;
+}
+
+.nameInitials{
+  border-radius: 50%;
+  color: white; 
+  background-color: #017bd1; 
+  width: 42px; 
+  height: 42px; 
+  padding: 3%; 
+  font-size: 20px;
+  margin-right: 10px;
+  float:left
+}
+.spanUserName{
+ line-height: 44px 
+}
+
+.ReactTable .rt-th, .ReactTable .rt-td{
+  padding:4px 5px
+}
+
+.ReactTable .rt-thead .rt-tr{
+  font-weight: 500;
+  text-align: left
+}
+
+.btn.focus, .btn:focus{
+  box-shadow: none
+}
+
+.ReactModal__Content{
+  padding: 0px !important;
+  border:0
+}
+
+.-next .-btn,.-previous .-btn, .modal-footer .btn{
+color: #fff !important;
+background-color: #007bff !important;
+border-color: #007bff !important;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(107, 107, 107, 0.75) !important;
+}
+
+.settingCard{
+ padding-top: 28px;
+ padding-bottom: 28px;
+}
+
+.badge{
+  border-radius: 0;
+  color: black;
+    font-weight: 500;
+    padding: 7px;
+    background-color: #e6e6e6;
+    width: 100%
+}
+
+ .dashboardHeading{
+  padding-bottom: 5px;
+  background-color: #fbf3e5;
+  border-bottom: 1px solid #e2ca9c;
+  color: #b38125;
+  margin-bottom: 3px;
+  padding-left: 1rem;
+} 
+
+.ReactTable .rt-thead.-header{
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.15);
+  color: #1374da;
+}
+
+.ReactTable .rt-noData{
+  top:500%;
+  z-index: 0;
+}
+
+
+#pieFailureTrendsNoData, #pieLoginTrendsNoData{
+  border:0
+}
+#pieFailureTrendsNoData .rt-noData, #pieLoginTrendsNoData .rt-noData{
+    margin-top:15%;
+  
+}
+
+.hidden{
+  display: none
+}
+
+.inactive{opacity: 0.5;cursor: pointer;}

@@ -1,0 +1,19 @@
+name: Notify manual
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Send Notification
+        # if: ${{ github.event.workflow_run.conclusion == 'success' }}
+        run: |
+           python abc.py
+           exit 1
+           echo jsdb."Notifying about successful build..."
+           #.;#&×>
+        

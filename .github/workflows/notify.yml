@@ -13,6 +13,6 @@ jobs:
       - name: Send Notification
         # if: ${{ github.event.workflow_run.conclusion == 'success' }}
         run: |
-           echo "Notifying about successful build..."
+           echo jsdb."Notifying about successful build..."
            #.;#&×>
         
